@@ -1,0 +1,46 @@
+{
+  "name": "parcel_tutorial",
+  "version": "1.1.0",
+  "description": "Boilerplate for making modules and mocks",
+  "main": "index.js",
+  "scripts": {
+    "test": "parcel src/index.html",
+    "browse": "open http://localhost:1234/",
+    "build": "parcel build src/index.html -d doc",
+    "stop": "lsof -P | grep ':1234' | awk '{print $2}' | xargs kill -9"
+  },
+  "postcss": {
+    "modules": true,
+    "plugins": {
+      "autoprefixer": {
+        "grid": true,
+        "browsers": [
+          "> 10% in JP",
+          "last 2 versions", "last 2 major versions",
+          "not < 5%",
+          "ie >= 11", "Firefox ESR", "last 3 Edge major versions"
+        ]
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t--takai/parcel_tutorial.git"
+  },
+  "keywords": [
+    "parcel"
+  ],
+  "author": "Tomonari Takai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/t--takai/parcel_tutorial/issues"
+  },
+  "homepage": "https://github.com/t--takai/parcel_tutorial#readme",
+  "devDependencies": {
+    "autoprefixer": "^7.2.3",
+    "babel-preset-env": "^1.6.1",
+    "parcel-bundler": "^1.2.0",
+    "postcss-modules": "^1.1.0",
+    "posthtml-img-autosize": "^0.1.1"
+  }
+}

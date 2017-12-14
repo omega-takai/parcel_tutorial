@@ -1,3 +1,10 @@
+# Mac
+.DS_Store
+
+# Parcel_Tutorial Project
+dist/
+.cache
+
 # Logs
 logs
 *.log
