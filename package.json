@@ -1,0 +1,28 @@
+{
+  "name": "parcel_tutorial",
+  "version": "1.0.0",
+  "description": "Boilerplate for making modules and mocks",
+  "main": "index.js",
+  "scripts": {
+    "test": "parcel src/index.html",
+    "browse": "open http://localhost:1234/",
+    "build": "parcel watch src/index.html",
+    "stop": "lsof -P | grep ':1234' | awk '{print $2}' | xargs kill -9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t--takai/parcel_tutorial.git"
+  },
+  "keywords": [
+    "parcel"
+  ],
+  "author": "Tomonari Takai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/t--takai/parcel_tutorial/issues"
+  },
+  "homepage": "https://github.com/t--takai/parcel_tutorial#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.2.0"
+  }
+}
