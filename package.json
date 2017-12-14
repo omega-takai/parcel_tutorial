@@ -6,7 +6,7 @@
   "scripts": {
     "test": "parcel src/index.html",
     "browse": "open http://localhost:1234/",
-    "build": "parcel build src/index.html -d doc",
+    "build": "parcel build src/index.html -d docs",
     "stop": "lsof -P | grep ':1234' | awk '{print $2}' | xargs kill -9"
   },
   "postcss": {
