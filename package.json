@@ -4,15 +4,14 @@
   "description": "Boilerplate for making modules and mocks",
   "main": "index.js",
   "scripts": {
-    "clean:dist" : "rm -rf dist/*",
-    "clean:docs" : "rm -rf docs/*",
-    "clean"      : "yarn run clean:dist && yarn run clean:docs",
-    "start"      : "yarn run clean:docs && parcel src/index.html",
-    "test"       : "parcel src/index.html",
-    "browse"     : "open http://localhost:1234/",
-    "build"      : "parcel build src/index.html -d docs",
+    "clean:dist": "rm -rf dist/*",
+    "clean:docs": "rm -rf docs/*",
+    "clean": "yarn run clean:dist && yarn run clean:docs",
+    "start": "yarn run clean:docs && parcel src/index.html",
+    "test": "parcel src/index.html",
+    "build": "parcel build src/index.html -d docs",
     "build:nomin": "yarn run clean:docs && yarn run build --no-minify --no-cache",
-    "stop"       : "lsof -P | grep ':1234' | awk '{print $2}' | xargs kill -9"
+    "stop": "lsof -P | grep ':1234' | awk '{print $2}' | xargs kill -9"
   },
   "postcss": {
     "modules": true,
@@ -21,8 +20,12 @@
         "grid": true,
         "browsers": [
           "> 10% in JP",
-          "last 4 versions", "last 2 major versions",
-          "ie >= 11", "Firefox ESR", "last 3 Edge major versions"
+          "last 2 versions",
+          "last 2 major versions",
+          "not < 5%",
+          "ie >= 11",
+          "Firefox ESR",
+          "last 3 Edge major versions"
         ]
       }
     }
@@ -39,7 +42,6 @@
   "homepage": "https://github.com/t--takai/parcel_tutorial#readme",
   "devDependencies": {
     "autoprefixer": "^7.2.3",
-    "node-sass": "^4.7.2",
     "parcel-bundler": "^1.2.0",
     "postcss-modules": "^1.1.0"
   }

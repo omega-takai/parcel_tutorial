@@ -1,7 +1,3 @@
-body {
-  background-color: #EEE;
-  color: #333;
-}
 // Name        : app.sass
 // Description : Managing CSS/SASS/LESS/Stylus, can't use SCSS.
 // Constitution: https://github.com/hiloki/flocss
@@ -13,8 +9,7 @@ body {
 // プロジェクトにおける基本的なスタイルを定義します。
 // ページの下地としての全体の背景や、基本的なタイポグラフィなどが該当します。
 
-
-// @import "foundation/*.scss";
+@import "foundation/reset.sass";
 
 // ==========================================================================
 // Layout
@@ -22,7 +17,7 @@ body {
 // ページを構成するヘッダーやメインのコンテンツエリア、サイドバーやフッターといった
 // プロジェクト共通のコンテナーブロックのスタイルを定義します。
 
-// @import "layout/*.scss";
+// @import "layout/*.sass";
 
 // ==========================================================================
 // Object
@@ -35,7 +30,7 @@ body {
 // -----------------------------------------------------------------
 // 再利用できるパターンとして、小さな単位のモジュールを定義します。
 
-// @import "object/component/*.scss";
+// @import "object/component/*.sass";
 
 // -----------------------------------------------------------------
 // Object__Project
@@ -43,7 +38,7 @@ body {
 // プロジェクト固有のパターンであり、いくつかのComponentと、
 // それに該当しない要素によって構成されるものを定義します。
 
-// @import "object/project/*.scss";
+// @import "object/project/*.sass";
 
 // -----------------------------------------------------------------
 // Object__Utility
@@ -51,4 +46,4 @@ body {
 // ComponentとProjectレイヤーのObjectのモディファイアで解決することが難しい・
 // 適切では無い、わずかなスタイルの調整のための便利クラスなどを定義します。
 
-// @import "object/utility/*.scss";
+// @import "object/utility/*.sass";

@@ -14,7 +14,7 @@ $ yarn
 ## Running 🚀
 
 ```
-$ yarn test
+$ yarn start
 ```
 
 ## Stop 😇
