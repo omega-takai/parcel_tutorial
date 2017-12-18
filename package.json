@@ -26,22 +26,5 @@
     "autoprefixer": "^7.2.3",
     "node-sass": "^4.7.2",
     "parcel-bundler": "^1.2.0"
-  },
-  "postcss": {
-    "modules": true,
-    "plugins": {
-      "autoprefixer": {
-        "grid": true,
-        "browsers": [
-          "> 10% in JP",
-          "last 2 versions",
-          "last 2 major versions",
-          "not < 5%",
-          "ie >= 11",
-          "Firefox ESR",
-          "last 3 Edge major versions"
-        ]
-      }
-    }
   }
 }
