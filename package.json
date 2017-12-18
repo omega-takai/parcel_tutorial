@@ -7,13 +7,10 @@
     "test": "parcel src/index.html",
     "browse": "open http://localhost:1234/",
     "build": "parcel build src/index.html -d docs",
-    "build:nomin": "yarn run build",
+    "build:nomin": "yarn run build --no-minify --no-cache",
     "stop": "lsof -P | grep ':1234' | awk '{print $2}' | xargs kill -9"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/t--takai/parcel_tutorial.git"
-  },
+  "repository": "git+https://github.com/t--takai/parcel_tutorial.git",
   "keywords": [
     "parcel"
   ],
@@ -24,10 +21,6 @@
   },
   "homepage": "https://github.com/t--takai/parcel_tutorial#readme",
   "devDependencies": {
-    "autoprefixer": "^7.2.3",
-    "babel-preset-env": "^1.6.1",
-    "parcel-bundler": "^1.2.0",
-    "postcss-modules": "^1.1.0",
-    "posthtml-img-autosize": "^0.1.1"
+    "parcel-bundler": "^1.2.0"
   }
 }
