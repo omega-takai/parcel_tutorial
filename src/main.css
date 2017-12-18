@@ -1,4 +1,8 @@
 body {
   background-color: #EEE;
   color: #333;
+  border-radius: 3px;
+  background: linear-gradient(white, gray); /* it's working! yay! */
+  width: calc(100% - 200px);
+  margin: 30px auto;
 }
