@@ -82,15 +82,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 exports.default = () => {
   console.log(_app2.default.app);
-};
-
-// import classes from './main.css';
-
-// export default () => {
-//   console.log(classes.main);
-// };
-// import a CSS module
-// import classes from './style/main.css';
+}; // import a CSS module
 },{"./style/app.scss":8}],4:[function(require,module,exports) {
 "use strict";
 
