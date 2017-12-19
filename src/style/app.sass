@@ -1,3 +1,11 @@
+body
+  background-color: #EEE
+  color: #333
+  border-radius: 3px
+  background: linear-gradient(white, gray) /* it's working! yay! */
+  width: calc(100% - 200px)
+  margin: 30px auto
+
 // Name        : app.sass
 // Description : Managing CSS/SASS/LESS/Stylus, can't use SCSS.
 // Constitution: https://github.com/hiloki/flocss
@@ -9,7 +17,7 @@
 // プロジェクトにおける基本的なスタイルを定義します。
 // ページの下地としての全体の背景や、基本的なタイポグラフィなどが該当します。
 
-@import "foundation/reset.sass";
+// @import "foundation/reset.sass";
 
 // ==========================================================================
 // Layout
@@ -46,4 +54,4 @@
 // ComponentとProjectレイヤーのObjectのモディファイアで解決することが難しい・
 // 適切では無い、わずかなスタイルの調整のための便利クラスなどを定義します。
 
-// @import "object/utility/*.sass";
+// @import "object/utility/_stash"
