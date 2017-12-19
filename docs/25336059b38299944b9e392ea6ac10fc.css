@@ -54,15 +54,15 @@ header {
   width: 50%;
   background-color: #AAA; }
 
-._header_1izet_57 {
+.header {
   margin: 0 auto; }
 
-._main_1izet_60 {
+.main {
   font-size: 40px; }
-  ._main_1izet_60 h1 {
+  .main h1 {
     font-size: 50px; }
 
-main#_main_1izet_60 {
+main#main {
   background-color: #FFF;
   width: 70%;
   font-size: 30px;

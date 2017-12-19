@@ -14,10 +14,10 @@
     "stop": "lsof -P | grep ':1234' | awk '{print $2}' | xargs kill -9"
   },
   "postcss": {
-    "modules": true,
+    "modules": false,
     "plugins": {
       "autoprefixer": {
-        "grid": true,
+        "grid": false,
         "browsers": [
           "> 10% in JP",
           "last 2 versions",
