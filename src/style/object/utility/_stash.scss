@@ -1,0 +1,33 @@
+// Name        : stash
+// Description : unstable css.
+
+body {
+  background-color: #EEE;
+  padding: 30px;
+  margin: 0 auto;
+  width: 70%;
+}
+header {
+  display: block;
+  width: 50%;
+  background-color: #AAA;
+}
+.header {
+  margin: 0 auto;
+}
+
+.main {
+  font-size: 40px;
+  h1 {
+    font-size: 50px;
+  }
+}
+
+
+main#main {
+  background-color: #FFF;
+  width: 70%;
+  font-size: 30px;
+  margin: 0 auto;
+  padding: 20px;
+}

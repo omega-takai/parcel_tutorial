@@ -1,1 +1,4 @@
-console.log("hello world");
+// import another component
+import main from './main';
+
+main();
