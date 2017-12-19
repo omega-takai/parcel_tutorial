@@ -31,6 +31,13 @@
       }
     }
   },
+  "posthtml": {
+    "plugins": {
+      "posthtml-img-autosize": {
+        "root": "./images"
+      }
+    }
+  },
   "repository": "git+https://github.com/t--takai/parcel_tutorial.git",
   "keywords": [
     "parcel"
@@ -46,6 +53,7 @@
     "babel-preset-env": "^1.6.1",
     "node-sass": "^4.7.2",
     "parcel-bundler": "^1.2.0",
-    "postcss-modules": "^1.1.0"
+    "postcss-modules": "^1.1.0",
+    "posthtml-img-autosize": "^0.1.1"
   }
 }

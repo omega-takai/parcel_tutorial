@@ -80,7 +80,7 @@ var _app2 = _interopRequireDefault(_app);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-exports.default = () => {
+exports.default = function () {
   console.log(_app2.default.app);
 }; // import a CSS module
 },{"./style/app.scss":8}],4:[function(require,module,exports) {
