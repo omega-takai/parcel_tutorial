@@ -31,6 +31,21 @@ $ yarn run build
 
 ***
 
+## Meaning of Emoji
+
+| Browse    | Emoji       | Mean      |
+| --------- | ----------- | --------- |
+| :shit:    | `:shit:`    | foobarbaz |
+| :memo:    | `:memo:`    | foobarbaz |
+| :bug:     | `:bug:`     | foobarbaz |
+| :tada:    | `:tada:`    | foobarbaz |
+| :octocat: | `:octocat:` | foobarbaz |
+| :rocket:  | `:rocket:`  | foobarbaz |
+| :gem:     | `:gem:`     | foobarbaz |
+| :toilet:  | `:toilet:`  | foobarbaz |
+
+***
+
 ## Thanks & Resources
 
 * **Reference**
