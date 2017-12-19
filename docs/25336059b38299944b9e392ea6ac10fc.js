@@ -65,43 +65,9 @@ require = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({8:[function(require,module,exports) {
-module.exports = {
-  "header": "_header_1izet_57",
-  "main": "_main_1izet_60"
-};
-},{}],6:[function(require,module,exports) {
-"use strict";
+})({5:[function(require,module,exports) {
+// import another component
+// import main from './main';
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _app = require("./style/app.scss");
-
-var _app2 = _interopRequireDefault(_app);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = () => {
-  console.log(_app2.default.app);
-};
-
-// import classes from './main.css';
-
-// export default () => {
-//   console.log(classes.main);
-// };
-// import a CSS module
-// import classes from './style/main.css';
-},{"./style/app.scss":8}],4:[function(require,module,exports) {
-"use strict";
-
-var _main = require("./main");
-
-var _main2 = _interopRequireDefault(_main);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-(0, _main2.default)(); // import another component
-},{"./main":6}]},{},[4])
+// main();
+},{}]},{},[5])
