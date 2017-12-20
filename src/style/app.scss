@@ -1,25 +1,28 @@
-// Name        : app.sass
-// Description : Managing CSS. can use @import.
-// Constitution: https://github.com/hiloki/flocss
+// Name         : app.scss
+// Description  : Managing CSS. can use @import & Scss.
+// Import Level : 0
+// Constitution : https://github.com/hiloki/flocss
+// Extendは、原則そのモジュールで完結する継承以外では利用を禁止します。
 
 // ==========================================================================
 // Foundation
+// Import Level : 1 ★
 // ==========================================================================
 // Reset.cssやNormalize.cssなどを用いたブラウザのデフォルトスタイルの初期化や、
 // プロジェクトにおける基本的なスタイルを定義します。
 // ページの下地としての全体の背景や、基本的なタイポグラフィなどが該当します。
 
-
 @import './foundation/_reset';
-
+@import './foundation/_base';
 
 // ==========================================================================
 // Layout
+// Import Level : 2 ★★
 // ==========================================================================
 // ページを構成するヘッダーやメインのコンテンツエリア、サイドバーやフッターといった
 // プロジェクト共通のコンテナーブロックのスタイルを定義します。
 
-// @import "layou.sass";
+@import './layout/_layout';
 
 // ==========================================================================
 // Object
@@ -29,23 +32,28 @@
 
 // -----------------------------------------------------------------
 // Object__Component
+// Import Level : 3 ★★★
 // -----------------------------------------------------------------
 // 再利用できるパターンとして、小さな単位のモジュールを定義します。
 
-// @import "object/componen.sass";
+@import './object/component/_component';
 
 // -----------------------------------------------------------------
 // Object__Project
+// Import Level : 4 ★★★★
 // -----------------------------------------------------------------
 // プロジェクト固有のパターンであり、いくつかのComponentと、
 // それに該当しない要素によって構成されるものを定義します。
 
-// @import "object/projec.sass";
+@import './object/project/_project';
 
 // -----------------------------------------------------------------
 // Object__Utility
+// Import Level : 5 ★★★★★
 // -----------------------------------------------------------------
 // ComponentとProjectレイヤーのObjectのモディファイアで解決することが難しい・
 // 適切では無い、わずかなスタイルの調整のための便利クラスなどを定義します。
+// 使いたくない
 
-@import 'object/utility/_stash';
+@import './object/utility/_utility';
+@import './object/utility/_stash';

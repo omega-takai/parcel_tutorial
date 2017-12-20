@@ -1,11 +1,4 @@
-// Name         : reset
-// Description  : Reset CSS
-// Import Level : 1 ★
-// ============================================================
-// http://meyerweb.com/eric/tools/css/reset/
-// v2.0 | 20110126
-// License: none (public domain)
-
+@import url("61f29dfe5d10c2d41e68d8b4b24bd8cc.css");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,39 +17,57 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
-}
-
-// HTML5 display-role reset for older browsers
+  vertical-align: baseline; }
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-  display: block;
-}
+  display: block; }
 
 body {
-  line-height: 1;
-}
+  line-height: 1; }
 
 ol, ul {
-  list-style: none;
-}
+  list-style: none; }
 
 blockquote, q {
-  quotes: none;
-}
+  quotes: none; }
 
 blockquote:before, blockquote:after {
   content: '';
-  content: none;
-}
+  content: none; }
 
 q:before, q:after {
   content: '';
-  content: none;
-}
+  content: none; }
 
 table {
   border-collapse: collapse;
-  border-spacing: 0;
-}
+  border-spacing: 0; }
+
+body {
+  font-family: YakuHanJP, "Hiragino Sans", Meiryo, sans-serif; }
+
+.body {
+  background-color: #EEE;
+  padding: 30px;
+  margin: 0 auto; }
+
+.header {
+  padding: 30px;
+  margin: 0 auto;
+  background-color: #DDD; }
+
+.main {
+  background-color: #fff;
+  padding: 30px; }
+  .main h1 {
+    font-size: 50px; }
+  .main a {
+    display: inline-block;
+    padding-top: 1rem;
+    font-size: 16px; }
+
+.footer {
+  padding: 30px;
+  margin: 0 auto;
+  background-color: #DDD; }

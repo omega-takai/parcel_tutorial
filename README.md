@@ -1,4 +1,4 @@
-# parcel_tutorial 🚀📦
+# Parcel Tutorial 🚀📦
 Boilerplate for making modules and mocks
 
 ***
@@ -56,6 +56,8 @@ $ yarn run build
     * [github.com/ai/browserslist](https://github.com/ai/browserslist)
     * [Emoji cheat sheet for GitHub, Basecamp and other services](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
     * [postcss-modules](https://github.com/css-modules/postcss-modules)
+    * [Noto Sans JP](https://fonts.google.com/earlyaccess#Noto+Sans+JP)
+    * [github.com/qrac/yakuhanjp](https://github.com/qrac/yakuhanjp)
 * **Design philosophy**
     * [github.com/hiloki/flocss](https://github.com/hiloki/flocss)
     * [npm で依存もタスクも一元化する - Qiita](http://qiita.com/Jxck_/items/efaff21b977ddc782971)
