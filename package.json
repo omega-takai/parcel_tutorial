@@ -9,7 +9,7 @@
     "clean:cache": "rm -rf .cache/*",
     "clean": "yarn run clean:dist && yarn run clean:docs && yarn run clean:cache",
     "start": "yarn run clean:docs && parcel src/index.html",
-    "browse:docs": "open docs/index.html",
+    "browse:docs": "open -a 'Google Chrome Canary' docs/index.html",
     "browse:dist": "open -a 'Google Chrome Canary' dist/index.html",
     "build": "parcel build src/index.html -d docs  --public-url ./",
     "build:nomin": "yarn run clean:docs && yarn run build --no-minify --no-cache && yarn run browse:docs",

@@ -65,32 +65,10 @@ require = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({8:[function(require,module,exports) {
+})({6:[function(require,module,exports) {
 
-},{"./../../node_modules/yakuhanjp/dist/css/yakuhanjp.min.css":["61f29dfe5d10c2d41e68d8b4b24bd8cc.css",11]}],6:[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _app = require("./style/app.scss");
-
-var _app2 = _interopRequireDefault(_app);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = function () {
-  console.log(_app2.default.app);
-}; // import a CSS module
-},{"./style/app.scss":8}],4:[function(require,module,exports) {
-"use strict";
-
-var _main = require("./main");
-
-var _main2 = _interopRequireDefault(_main);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-(0, _main2.default)(); // import another component
-},{"./main":6}]},{},[4])
+},{"./../../node_modules/yakuhanjp/dist/css/yakuhanjp.min.css":["61f29dfe5d10c2d41e68d8b4b24bd8cc.css",7]}],5:[function(require,module,exports) {
+"use strict";function e(e){return e&&e.__esModule?e:{default:e}}Object.defineProperty(exports,"__esModule",{value:!0});var t=require("./style/app.scss"),r=e(t);exports.default=function(){};
+},{"./style/app.scss":6}],4:[function(require,module,exports) {
+"use strict";function e(e){return e&&e.__esModule?e:{default:e}}var u=require("./main"),r=e(u);(0,r.default)();
+},{"./main":5}]},{},[4])
