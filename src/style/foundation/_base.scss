@@ -16,7 +16,8 @@
 // Yaku Han JP
 // http://qrac.github.io/yakuhanjp/
 // ==========================================================================
-@import '../../node_modules/yakuhanjp/dist/css/yakuhanjp.min.css';
+@import url(https://cdn.jsdelivr.net/npm/yakuhanjp@3.0.0/dist/css/yakuhanjp.min.css);
+// @import '../../node_modules/yakuhanjp/dist/css/yakuhanjp.css';
 // @import '~yakuhanjp/dist/css/yakuhanjp.min.css';
 // @import "~yakuhanjp/dist/css/yakuhanjp.min.css";
 // @import 'YakuHanJP';

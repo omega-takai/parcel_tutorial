@@ -1,17 +1,21 @@
 {
   "name": "parcel_tutorial",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Boilerplate for making modules and mocks",
   "main": "index.js",
   "scripts": {
     "clean:dist": "rm -rf dist/*",
     "clean:docs": "rm -rf docs/*",
-    "clean": "yarn run clean:dist && yarn run clean:docs",
+    "clean:cache": "rm -rf .cache/*",
+    "clean": "yarn run clean:dist && yarn run clean:docs && yarn run clean:cache",
     "start": "yarn run clean:docs && parcel src/index.html",
-    "test": "parcel src/index.html",
-    "browse:docs": "open docs/index.html",
+    "browse:docs": "open -a 'Google Chrome Canary' docs/index.html",
+    "browse:dist": "open -a 'Google Chrome Canary' dist/index.html",
     "build": "parcel build src/index.html -d docs  --public-url ./",
     "build:nomin": "yarn run clean:docs && yarn run build --no-minify --no-cache && yarn run browse:docs",
+    "build:predist": "yarn run clean:dist && parcel build src/index.html -d dist  --public-url ./ --no-minify",
+    "echo": "echo \"Error: no echo specified\" ",
+    "test": "yarn run clean:cache && yarn run build:predist && yarn run browse:dist",
     "stop": "lsof -P | grep ':1234' | awk '{print $2}' | xargs kill -9"
   },
   "postcss": {
