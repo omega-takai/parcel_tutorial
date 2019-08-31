@@ -1347,10 +1347,6 @@ block-stream@*:
   dependencies:
     inherits "~2.0.0"
 
-bluebird@^3.1.1:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.1.tgz#d9551f9de98f1fcda1e683d17ee91a0602ee2eb9"
-
 bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.1.1, bn.js@^4.4.0:
   version "4.11.8"
   resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.8.tgz#2cde09eb5ee341f484746bb0309b3253b1b1442f"
@@ -2933,9 +2929,9 @@ ignore-walk@^3.0.1:
   dependencies:
     minimatch "^3.0.4"
 
-image-size@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/image-size/-/image-size-0.4.0.tgz#d4b4e1f61952e4cbc1cea9a6b0c915fecb707510"
+image-size@^0.7.2:
+  version "0.7.4"
+  resolved "https://registry.yarnpkg.com/image-size/-/image-size-0.7.4.tgz#092c1e541a93511917bfc957a1fc7add21c72e87"
 
 import-fresh@^2.0.0:
   version "2.0.0"
@@ -4508,12 +4504,11 @@ postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.11, postcss@^7.0.17, postcss@^7.0.5
     source-map "^0.6.1"
     supports-color "^6.1.0"
 
-posthtml-img-autosize@0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/posthtml-img-autosize/-/posthtml-img-autosize-0.1.1.tgz#e955475e954dc08ca1e8cb7b2ed487206e93479e"
+posthtml-img-autosize@0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/posthtml-img-autosize/-/posthtml-img-autosize-0.1.4.tgz#0c3d612ba5f6682ebfe344de89e57ffedb5da4ed"
   dependencies:
-    bluebird "^3.1.1"
-    image-size "^0.4.0"
+    image-size "^0.7.2"
 
 posthtml-parser@^0.4.0, posthtml-parser@^0.4.1:
   version "0.4.1"
