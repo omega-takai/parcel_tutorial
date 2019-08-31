@@ -53,12 +53,12 @@
   },
   "homepage": "https://github.com/t--takai/parcel_tutorial#readme",
   "devDependencies": {
-    "autoprefixer": "^7.2.3",
-    "babel-preset-env": "^1.6.1",
-    "node-sass": "^4.7.2",
+    "autoprefixer": "7.2.3",
+    "babel-preset-env": "1.6.1",
+    "node-sass": "4.7.2",
     "parcel-bundler": "^1.2.0",
-    "postcss-modules": "^1.1.0",
-    "posthtml-img-autosize": "^0.1.1",
-    "yakuhanjp": "^2.0.0"
+    "postcss-modules": "1.1.0",
+    "posthtml-img-autosize": "0.1.1",
+    "yakuhanjp": "2.0.0"
   }
 }
