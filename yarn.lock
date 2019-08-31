@@ -5847,9 +5847,9 @@ y18n@^3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.1.tgz#6d15fba884c08679c0d77e88e7759e811e07fa41"
 
-yakuhanjp@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/yakuhanjp/-/yakuhanjp-2.0.0.tgz#c4c533b49161a18b431c925f3f60e652cbcbb0fb"
+yakuhanjp@3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/yakuhanjp/-/yakuhanjp-3.2.0.tgz#2f3041c6235a522db4cdc45e5b7c634abfd67e60"
 
 yallist@^2.1.2:
   version "2.1.2"
